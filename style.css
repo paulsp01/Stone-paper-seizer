@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 3rem;
+    line-height: 5rem;
+    padding-bottom: 3rem;
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+   
+    cursor: pointer;
+    background-color: #081b31;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+   
+}
+.score-bored{
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+    font-size: 2rem;
+    margin-top: 4rem;
+    gap: 3rem;
+}
+#user-score,#comp-score{
+    font-size: 3rem;
+}
+#msg{
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+   border-radius: 1rem;
+    display: inline;
+}
+.msg-container{
+    margin-top: 4rem;
+}
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  z-index: 10;
+}
+#play-again {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #a712ec;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
